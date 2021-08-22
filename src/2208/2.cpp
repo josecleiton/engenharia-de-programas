@@ -29,7 +29,7 @@ int main(int argc, char const *argv[]) {
 
   const double a = 1;
   const double b = 2;
-  const input_arr input = {{2, 3}};
+  const input_arr input = {{2, 3}, {3, 4}, {5, 5}, {1, 1}, {0, 2}, {2, 2}};
 
   for (const auto &[key, value] : solve(input, a, b)) {
     std::cout << key << ": " << std::fixed << value << '\n';
